@@ -3,21 +3,21 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "天生我材必有用",
+  description: "论程序员的自我修养",
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Resume', link: '/resume' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Resume',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Resume', link: '/resume' }
         ]
       }
     ],

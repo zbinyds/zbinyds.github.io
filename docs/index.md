@@ -7,25 +7,25 @@ layout: home
 
 hero:
 
-  name: "My Awesome Project"
+  name: "zbinyds"
 
-  text: "A VitePress Site"
+  text: "知识库归档"
 
-  tagline: My great project tagline
+  tagline: Talk is cheap. Show me the code!
 
   actions:
 
     - theme: brand
 
-      text: Markdown Examples
+      text: 个人简介
 
-      link: /markdown-examples
+      link: /resume
 
     - theme: alt
 
-      text: API Examples
+      text: 知识库
 
-      link: /api-examples
+      link: /
 
 
 features:
