@@ -5,6 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "天生我材必有用",
   description: "论程序员的自我修养",
+  base: "/owner/",
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
